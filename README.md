@@ -19,5 +19,5 @@ Download the u8glib library and install it following the normal Arduino process 
 ### Step 2: Burn the code in your Arduino
 And enjoy it!
 
-##Support
+## Support
 Any question could be made sending an email to info@openlabmadrid.es
