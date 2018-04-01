@@ -1,6 +1,6 @@
 # HDD centrifuge
 
-### The design of this machine have been made by OpenLab Madrid and *very inspired and getting the initial idea* in the *hackteria wiki* (https://hackteria.org/wiki/Hacked_Hard-disc_Centrifuge), adding some changes to adapt the machine to our needs.
+### The design of this machine have been made by OpenLab Madrid and *getting the initial idea* in the *hackteria wiki* (https://hackteria.org/wiki/Hacked_Hard-disc_Centrifuge), adding some changes to adapt the machine to our needs.
 
 ## Making the solid parts (case and rotor)
 ### Step 1: Case
