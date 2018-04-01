@@ -4,7 +4,7 @@
 
 ## Making the solid parts (case and rotor)
 ### Step 1: Case
-The case files are in the "Laserable and 3D printable" folder. Here, will find the SolidWorks assembly files of all the files you will need and the .dxf files to cut in a laser cutter machine. If you don´t have the SolidWorks software don´t worry, we have attached a .jpg capture of all the case mounted in the "Images of the mounted device" folder. 
+The case files are in the "Laserable and 3D printable" folder. Here, you will find the SolidWorks assembly files of all the files you will need and the .dxf files to cut in a laser cutter machine. If you don´t have the SolidWorks software don´t worry, we have attached a .jpg capture of all the case mounted in the "Images of the mounted device" folder. 
 
 The material must be 3mm thickness and we have used MDF for the HDD enclosing and transparent acrylic for the cover. 
 
