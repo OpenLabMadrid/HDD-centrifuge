@@ -1,6 +1,6 @@
 # HDD centrifuge
 
-The design of this machine have been made by OpenLab Madrid and *getting the initial idea* in the *hackteria wiki* (https://hackteria.org/wiki/Hacked_Hard-disc_Centrifuge), adding some changes to adapt the machine to our needs.
+The design of this machine have been made by OpenLab Madrid, *getting the initial idea* in the *hackteria wiki* (https://hackteria.org/wiki/Hacked_Hard-disc_Centrifuge), adding some changes to adapt the machine to our needs.
 
 ## Making the solid parts (case and rotor)
 ### Step 1: Case
@@ -20,4 +20,4 @@ Download the u8glib library and install it following the normal Arduino process 
 And enjoy it!
 
 ## Support
-Any question could be made sending an email to info@openlabmadrid.es
+Any question could be made sending an email to info@openlabmadrid.es, feel free to ask anything.
