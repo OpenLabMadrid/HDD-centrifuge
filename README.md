@@ -1,11 +1,11 @@
 # HDD centrifuge
 
-The design of this machine have been made by OpenLab Madrid, *getting the initial idea* in the *hackteria wiki* (https://hackteria.org/wiki/Hacked_Hard-disc_Centrifuge), adding some changes to adapt the machine to our needs.
+The design of this machine have been made by OpenLab Madrid, *getting the initial idea* in the *hackteria wiki* (https://hackteria.org/wiki/Hacked_Hard-disc_Centrifuge) and adding some changes to adapt the machine to our needs.
 ## Electronics
 ### Understanding the components
 You can see the complete deiagram in the folder "Electronics".
 
-_Part 1: Esc controller_. This is the driver of the HDD Brushless motor. It send a triphasic PWM signal over 3 pins of the motor. The problem is that motors use to have 4 pins. You need to found the 3 pins attached to the 3 inductors of the motor and "discard" the pin associated to the common ground of them. To made this, you will need a polimeter, the pins of the three inductors will have the same resistance between them and the ground. You will need to keep measuring the resistance until you found the pin with which the other 3 pins have the same resistance. This is the ground, the other 3 must be the inductor pins. Connect them to the ESC controller.
+_Part 1: Esc controller_. This is the driver of the HDD Brushless motor. It send a triphasic PWM signal over 3 pins of the motor. The problem is that motors use to have 4 pins. You need to found the 3 pins attached to the 3 inductors of the motor and "discard" the pin associated to the common ground of them. To made this, you will need a polimeter to measure the resistances between the different pins. The pins of the three inductors will have the same resistance between them and the ground. You will need to keep measuring the resistance until you found the pin with which the other 3 have the same resistance. This is the ground, the other 3 must be the inductor pins. Connect them to the ESC controller.
 
 ## Making the solid parts (case and rotor)
 ### Step 1: Case
