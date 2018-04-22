@@ -30,7 +30,7 @@ The pins that we are using are:
 
 To solder the components between eachothers we are using awg30 wire:
 
-![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/awg.png?raw=true "awg pcb")
+![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/awg.jpg?raw=true "awg pcb")
 
 ## Making the solid parts (case and rotor)
 ### Step 1: Case
