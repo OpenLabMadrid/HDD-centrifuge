@@ -21,9 +21,8 @@ You can find the .stl file in the "Laserable and 3D printable" folder. We have p
 
 It is true that the result of the 3D printer is not perfectly symmetrical and in the case that we are managing more g forces, it will be dangerous to install this rotor in a centrifuge, but with which we are managing, you won´t have problems. A more symmetrical rotor made from acrilic and laser cutting machine, could be found in the Hackteria wiki. 
 
-```html
 <script src="https://embed.github.com/view/3d/OpenLabMadrid/HDD-centrifuge/blob/master/Laserable%20and%203D%20printable/Rotor/Rotor.STL>"></script>
-```
+
 
 ## Installing the code
 ### Step 1: Installing the libraries
