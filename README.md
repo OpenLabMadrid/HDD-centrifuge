@@ -65,6 +65,12 @@ It is true that the result of the 3D printer is not perfectly symmetrical and in
 ### Step 1: Installing the libraries
 Download the u8glib library (The folder called ug8lib inside the one called Arduino Code) and install it following the normal process (https://www.arduino.cc/en/Guide/Libraries) or copy it to "\Documents\Arduino\libraries" path.
 ### Step 2: Burn the code in your Arduino
+You must select Arduino nano as board, ATMEGA328 as processor, and the port in which the arduino is connected.
+
+If the port is not listed, make sure that you have installed the drivers from the chinese clone of Arduino about which we have been speaken in the previous steps.
+
+![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Arduino%20%Code/Photos/Burning%20%in%20%the%20%Arduino.png?raw=true "Burning in the Arduino")
+
 And enjoy it!
 
 ## Support
