@@ -11,7 +11,7 @@ _Part 1: Esc controller_. This is the driver of the HDD Brushless motor. It send
 ### Step 1: Case
 The case files are in the "Laserable and 3D printable" folder. Here, you will find the SolidWorks assembly files of all the parts you will need and the .dxf files to cut in a laser cutter machine. If you don´t have the SolidWorks software don´t worry, we have attached a .jpg capture of all the case mounted in the "Images of the mounted device" folder. 
 
-![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Laserable%20and%203D%20printable/Case/Images%20of%20the%20mounted%20device/Assembly1.JPG?raw=true "Assembembly example 1")
+https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Laserable%20and%203D%20printable/Case/Images%20of%20the%20mounted%20device/Assembly1.JPG?raw=true 
 
 The material must be 3mm thickness and we have used MDF for the HDD enclosing and transparent acrylic for the cover. The MDF have been stuck with white glue and the acrylic with cloroform or 
 cyanoacrylate (better the first one).  
