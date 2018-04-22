@@ -12,8 +12,6 @@ _Part 1: Esc controller_. This is the driver of the HDD Brushless motor. It send
 
 _Part 2: Arduino nano_. For mounting all the electronic chips, we have been using perforated PCBs. The Arduino nano is the main controller andd we are using the chinese clone (from Aliexpress, Banggood,...) with the TTL CH340 chip which needs a expecial driver to program it from the PC. You could find easily on google searching for "CH340 arduino driver".
 
-![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/mounted%20pcb.png?raw=true "PCB")
-
 The pins that we are using are:
 - LCD
 	- SDA: pin A4
@@ -27,6 +25,8 @@ The pins that we are using are:
 - ESC
 	- ESC digital control: pin D9
 	- Enable ESC (to the base of mosfet that enable ESC controller): pin D6
+
+![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/mounted%20pcb.png?raw=true "PCB")
 
 To solder the components between eachothers we are using awg30 wire:
 
