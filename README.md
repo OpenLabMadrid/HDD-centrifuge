@@ -17,13 +17,7 @@ _Part 1: Esc controller_. This is the driver of the HDD Brushless motor. It send
 
 ![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/HDD%20measurement.gif?raw=true)
 
-_Part 2: DC-DC converter_. This converter transform the alimentation provided by the power supply (12V) to the voltage that arduino needs (5V). Arduino have a built-in dc-dc converter that can manage 12V but this is the upper limit of the converter, and because the voltage of the power supply could vary a bit, this is the way to protect the Arduino. This converter also have capacitors to stabilize the power supply noise, that will be good for our project.
-
-_Part 3: Encoder_. Is the best way we hava found to introduce the orders in the centrifuge. You can learn a lot of this sistems with a simple search on google like "Arduino Encoders".  
-
-_Part 4: LCD_. We are using a 0.96" OLED which provide 128x64 pixel resolution. The advantages are that it´s cheap, it only uses 2 pins apart of the alimentation ones and you can draw graphics, logos and elegant menus on it.
-
-_Part 5: Arduino nano_. For mounting all the electronic chips, we have been using perforated PCBs but we are planning to migrate to printed PCB to save the huge time used soldering the wires. The Arduino nano is the main controller. We are using the chinese clone (from Aliexpress, Banggood,...) with the TTL CH340 chip which needs a special driver to program it from the PC. You could find easily on google searching for "CH340 arduino driver".
+_Part 2: Arduino nano_. For mounting all the electronic chips, we have been using perforated PCBs but we are planning to migrate to printed PCB to save the huge time used soldering the wires. The Arduino nano is the main controller. We are using the chinese clone (from Aliexpress, Banggood,...) with the TTL CH340 chip which needs a special driver to program it from the PC. You could find easily on google searching for "CH340 arduino driver".
 
 The pins that we are using are:
 - LCD
@@ -38,6 +32,14 @@ The pins that we are using are:
 - ESC
 	- ESC digital control: pin D9
 	- Enable ESC: pin D6
+
+_Part 3: DC-DC converter_. This converter transform the alimentation provided by the power supply (12V) to the voltage that arduino needs (5V). Arduino have a built-in dc-dc converter that can manage 12V but this is the upper limit of the converter, and because the voltage of the power supply could vary a bit, this is the way to protect the Arduino. This converter also have capacitors to stabilize the power supply noise, that will be good for our project.
+
+_Part 4: LCD_. We are using a 0.96" OLED which provide 128x64 pixel resolution. The advantages are that it´s cheap, it only uses 2 pins apart of the alimentation ones and you can draw graphics, logos and elegant menus on it.
+
+_Part 5: Encoder_. Is the best way we hava found to introduce the orders in the centrifuge. You can learn a lot of this sistems with a simple search on google like "Arduino Encoders".  
+
+### The result
 
 ![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/mounted%20pcb.png?raw=true "PCB")
 
