@@ -69,7 +69,7 @@ You must select Arduino nano as board, ATMEGA328 as processor, and the port in w
 
 If the port is not listed, make sure that you have installed the drivers from the chinese clone of Arduino about which we have been speaken in the previous steps.
 
-![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Arduino%20%Code/Photos/Burning%20%in%20%the%20%Arduino.png?raw=true "Burning in the Arduino")
+![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Arduino%20Code/Photos/Burning%20in%20the%20Arduino.png?raw=true "Burning in the Arduino")
 
 And enjoy it!
 
