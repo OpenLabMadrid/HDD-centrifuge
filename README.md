@@ -5,7 +5,7 @@ The design of this machine have been made by OpenLab Madrid, *getting the initia
 
 For the detailed descriptions and links to the components that we have buy see the Bill Of Materials (BOM) file in the "Electronics" folder.
 
-###Power supply
+### Power supply
 
 For the power supply we are using an Aliexpress 12V 3A one. Less than 3A may be insufficient for this centrifuge.
 
@@ -61,7 +61,7 @@ It is true that the result of the 3D printer is not perfectly symmetrical and in
 
 ## Installing the code
 ### Step 1: Installing the libraries
-Download the u8glib library and install it following the normal Arduino process to install libraries o copy it to "\Documents\Arduino\libraries" path.
+Download the u8glib library (The folder called ug8lib inside the one called Arduino Code) and install it following the normal process to adding libraries or copy it to "\Documents\Arduino\libraries" path.
 ### Step 2: Burn the code in your Arduino
 And enjoy it!
 
