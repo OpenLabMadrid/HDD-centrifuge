@@ -61,7 +61,7 @@ It is true that the result of the 3D printer is not perfectly symmetrical and in
 
 ## Installing the code
 ### Step 1: Installing the libraries
-Download the u8glib library (The folder called ug8lib inside the one called Arduino Code) and install it following the normal process to adding libraries or copy it to "\Documents\Arduino\libraries" path.
+Download the u8glib library (The folder called ug8lib inside the one called Arduino Code) and install it following the normal process (https://www.arduino.cc/en/Guide/Libraries) or copy it to "\Documents\Arduino\libraries" path.
 ### Step 2: Burn the code in your Arduino
 And enjoy it!
 
