@@ -8,7 +8,29 @@ The design of this machine have been made by OpenLab Madrid, *getting the initia
 
 _Part 1: Esc controller_. This is the driver of the HDD Brushless motor. It send a triphasic PWM signal over 3 pins of the motor. The problem is that motors use to have 4 pins. You need to found the 3 pins attached to the 3 inductors of the motor and "discard" the pin associated to the common ground of them. To made this, you will need a polimeter to measure the resistances between the different pins. The pins of the three inductors will have the same resistance between them and the ground. You will need to keep measuring the resistance until you found the pin with which the other 3 have the same resistance. This is the ground, the other 3 must be the inductor pins. Connect them to the ESC controller.
 
-![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/HDD%20measurement.gif?raw=true "HDD measurement.gif")
+![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/HDD%20measurement.gif?raw=true 
+
+_Part 2: Arduino nano_. For mounting all the electronic chips, we have been using perforated PCBs. The Arduino nano is the main controller andd we are using the chinese clone (from Aliexpress, Banggood,...) with the TTL CH340 chip which needs a expecial driver to program it from the PC. You could find easily on google searching for "CH340 arduino driver".
+
+![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/mounted%20pcb.png?raw=true "PCB")
+
+The pins that we are using are:
+- LCD
+	- SDA: pin A4
+	- SCL: pin A5
+	- GND: Arduino GND
+	- VCC: Arduino +5 V
+- Encoder
+	- Encoder output A: pin D3
+	- Encoder output B: pin D4
+	- Encoder button output: pin D2
+- ESC
+	- ESC digital control: pin D9
+	- Enable ESC (to the base of mosfet that enable ESC controller): pin D6
+
+To solder the components between eachothers we are using awg30 wire:
+
+![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/awg.png?raw=true "awg pcb")
 
 ## Making the solid parts (case and rotor)
 ### Step 1: Case
