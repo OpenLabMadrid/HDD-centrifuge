@@ -8,7 +8,7 @@ The design of this machine have been made by OpenLab Madrid, *getting the initia
 
 _Part 1: Esc controller_. This is the driver of the HDD Brushless motor. It send a triphasic PWM signal over 3 pins of the motor. The problem is that motors use to have 4 pins. You need to found the 3 pins attached to the 3 inductors of the motor and "discard" the pin associated to the common ground of them. To made this, you will need a polimeter to measure the resistances between the different pins. The pins of the three inductors will have the same resistance between them and the ground. You will need to keep measuring the resistance until you found the pin with which the other 3 have the same resistance. This is the ground, the other 3 must be the inductor pins. Connect them to the ESC controller.
 
-![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/HDD%20measurement.gif?raw=true 
+![alt text](https://github.com/OpenLabMadrid/HDD-centrifuge/blob/master/Electronics/Photos/HDD%20measurement.gif?raw=true)
 
 _Part 2: Arduino nano_. For mounting all the electronic chips, we have been using perforated PCBs. The Arduino nano is the main controller andd we are using the chinese clone (from Aliexpress, Banggood,...) with the TTL CH340 chip which needs a expecial driver to program it from the PC. You could find easily on google searching for "CH340 arduino driver".
 
